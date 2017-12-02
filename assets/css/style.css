@@ -1,3 +1,15 @@
 .jumbotron {
 	margin-top: 20px;
 }
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-family: 'Diplomata SC', cursive;
+}
+
+h3 {
+	padding: 10px;
+}
