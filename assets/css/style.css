@@ -4,6 +4,8 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	background-image: url('../images/brickwall.jpg');
+
 }
 
 h1 {
@@ -12,4 +14,13 @@ h1 {
 
 h3 {
 	padding: 10px;
+	font-family: 'Diplomata', cursive;
+}
+
+.img-responsive {
+	height: 200px;
+}
+
+#train-ads {
+	margin: 20px;
 }
