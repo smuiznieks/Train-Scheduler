@@ -1,11 +1,12 @@
-.jumbotron {
-	margin-top: 20px;
-}
-
 body {
 	font-family: 'Lato', sans-serif;
 	background-image: url('../images/brickwall.jpg');
+}
 
+.jumbotron {
+	margin-top: 20px;
+	background-color: #393839;
+	color: #EEF0EB;
 }
 
 h1 {
@@ -23,4 +24,18 @@ h3 {
 
 #train-ads {
 	margin: 20px;
+}
+
+#panel-dark {
+	background-color: #393839;
+	color: #EEF0EB;
+}
+
+#panel-light {
+	background-color: #EEF0EB;
+	color: #393839;
+}
+
+.panel {
+	border-color: #393839;
 }

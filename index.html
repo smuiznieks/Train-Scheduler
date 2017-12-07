@@ -14,12 +14,12 @@
 <body>
 	<div class="container">
 		<div class="row" id="train-ads">
-			<div class="col-md-2"><img src="https://i.pinimg.com/736x/65/db/0f/65db0f0678ca2fba79bcf19108944f48--landscape-posters-train-art.jpg" class="img-responsive"  alt="Train Ad" /></div>
-			<div class="col-md-2"><img src="https://nzhistory.govt.nz/files/styles/fullsize/public/travel-by-train.jpg?itok=xBm1Q_Z2" class="img-responsive"  alt="Train Ad" /></div>
-			<div class="col-md-2"><img src="http://www.trainsonthebrain.com/wp-content/uploads/2012/03/c-NRM-Pictorial-Collection-Science-and-Society-Picture-Library.jpg" class="img-responsive"  alt="Train Ad" /></div>
-			<div class="col-md-2"><img src="https://i.pinimg.com/originals/a7/12/72/a712728ef2ee47c2c6fe0f68a27aa3bc.jpg" class="img-responsive"  alt="Train Ad" /></div>
-			<div class="col-md-2"><img src="http://streamlinermemories.info/Posters/Bozeman.jpg" class="img-responsive"  alt="Train Ad" /></div>
-			<div class="col-md-2"><img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/vintage-union-station-train-poster-mitch-frey.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad1.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad2.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad3.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad4.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad5.jpg" class="img-responsive"  alt="Train Ad" /></div>
+			<div class="col-md-2"><img src="assets/images/ad6.jpg" class="img-responsive"  alt="Train Ad" /></div>
 		</div>
 		<div class="jumbotron">
   			<h1 class="text-center">Train Schedule</h1>
@@ -27,47 +27,55 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="panel panel-default">
-  					<div class="panel-heading">
-  						<h3 class="panel-title">Current Schedule</h3>
+					<div id="panel-dark">
+	  					<div class="panel-heading">
+	  						<h3 class="panel-title">Current Schedule</h3>
+	  					</div>
   					</div>
-  					<div class="panel-body">
-						<table id="trainTable" class="table">
-							<tr>
-								<th>Train Name</th>
-								<th>Destination</th> 
-								<th>Frequency (in minutes)</th>
-								<th>Next Arrival</th>
-								<th>Next Train (in minutes)</th>
-							</tr>
-	  					</table>
-	  				</div>
+  					<div id="panel-light">
+	  					<div class="panel-body">
+							<table id="trainTable" class="table">
+								<tr>
+									<th>Train Name</th>
+									<th>Destination</th> 
+									<th>Frequency (in minutes)</th>
+									<th>Next Arrival</th>
+									<th>Next Train (in minutes)</th>
+								</tr>
+		  					</table>
+		  				</div>
+		  			</div>
 				</div>
 				<br />
 				<div class="panel panel-default">
-  					<div class="panel-heading">
-    					<h3 class="panel-title">Add a Train</h3>
-  					</div>
-  					<div class="panel-body">
-    					<form>
-    						<div class="form-group">
-    							<label for="train-name">Train Name</label>
-    							<input class="form-control" id="train-name" type="text">
-    						</div>
-    						<div class="form-group">
-    							<label for="train-destination">Destination</label>
-    							<input class="form-control" id="train-destination" type="text">
-    						</div>
-    						<div class="form-group">
-    							<label for="train-time">Train Time (HH:mm) </label>
-    							<input class="form-control" id="train-time" type="text">
-    						</div>
-    						<div class="form-group">
-    							<label for="train-frequency">Frequency (in minutes)</label>
-    							<input class="form-control" id="train-frequency" type="number">
-    						</div>
-    						<button class="btn btn-default" id="submit-button" type="submit">Submit</button>
-    					</form>
-  					</div>
+					<div id="panel-dark">
+	  					<div class="panel-heading">
+	    					<h3 class="panel-title">Add a Train</h3>
+	  					</div>
+	  				</div>
+	  				<div id="panel-light">
+	  					<div class="panel-body">
+	    					<form>
+	    						<div class="form-group">
+	    							<label for="train-name">Train Name</label>
+	    							<input class="form-control" id="train-name" type="text">
+	    						</div>
+	    						<div class="form-group">
+	    							<label for="train-destination">Destination</label>
+	    							<input class="form-control" id="train-destination" type="text">
+	    						</div>
+	    						<div class="form-group">
+	    							<label for="train-time">Train Time (HH:mm) </label>
+	    							<input class="form-control" id="train-time" type="text">
+	    						</div>
+	    						<div class="form-group">
+	    							<label for="train-frequency">Frequency (in minutes)</label>
+	    							<input class="form-control" id="train-frequency" type="number">
+	    						</div>
+	    						<button class="btn btn-default" id="submit-button" type="submit">Submit</button>
+	    					</form>
+	  					</div>
+	  				</div>
 				</div>
 			</div>
 		</div>
